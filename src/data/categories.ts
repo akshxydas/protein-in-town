@@ -1,0 +1,68 @@
+import { CategoryInfo } from '../types';
+
+export const CATEGORIES: CategoryInfo[] = [
+  {
+    id: 'whey-protein',
+    name: 'Whey Protein',
+    slug: 'whey-protein',
+    shortDesc: 'Isolates, Concentrates & Blends',
+    tagline: 'Pure muscle recovery and lean growth formulations.',
+    image: '/src/assets/product_whey.jpg',
+  },
+  {
+    id: 'mass-gainers',
+    name: 'Mass Gainers',
+    slug: 'mass-gainers',
+    shortDesc: 'High-Calorie Complex Carbs',
+    tagline: 'High calorie mass & bulk fueling systems.',
+    image: 'https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'creatine',
+    name: 'Creatine',
+    slug: 'creatine',
+    shortDesc: 'Micronized & Creapure',
+    tagline: 'Explosive ATP production, power & cellular hydration.',
+    image: '/src/assets/product_creatine.jpg',
+  },
+  {
+    id: 'pre-workout',
+    name: 'Pre-Workout',
+    slug: 'pre-workout',
+    shortDesc: 'High Stim & Pump Igniters',
+    tagline: 'Laser focus, nitric oxide pumps, and sustained workout drive.',
+    image: 'https://images.unsplash.com/photo-1546483875-ad9014c88eba?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'vitamins',
+    name: 'Vitamins & Health',
+    slug: 'vitamins',
+    shortDesc: 'Multivitamins & Omega-3',
+    tagline: 'Daily micronutrients, joint health, and vital wellness.',
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'protein-bars',
+    name: 'Protein Bars & Snacks',
+    slug: 'protein-bars',
+    shortDesc: 'High-Protein On-The-Go Fuel',
+    tagline: 'Guilt-free crunchy snacks and high-protein fuel on the move.',
+    image: 'https://images.unsplash.com/photo-1622484216834-03c734b4c10c?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'shakers',
+    name: 'Shakers & Bottles',
+    slug: 'shakers',
+    shortDesc: 'Leak-Proof BPA-Free Shakers',
+    tagline: 'Stainless steel and heavy-duty mixing bottles.',
+    image: 'https://images.unsplash.com/photo-1570829460005-c840387bb1ca?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 'gym-accessories',
+    name: 'Gym Accessories',
+    slug: 'gym-accessories',
+    shortDesc: 'Straps, Belts, Bands & Wraps',
+    tagline: 'Heavy-duty lifting straps, lever belts, and resistance loops.',
+    image: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80',
+  },
+];
